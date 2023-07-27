@@ -1,0 +1,9 @@
+{
+    "version": 4,
+    "vendor": {
+        "conan": {}
+    },
+    "include": [
+        "/Users/archi/Documents/cmake-tutorial/build/CMakePresets.json"
+    ]
+}
