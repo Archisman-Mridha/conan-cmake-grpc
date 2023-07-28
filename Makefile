@@ -3,7 +3,7 @@ conan-install:
 
 run:
 	cd ./build && \
-		cmake .. -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Release cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON && \
+		cmake .. -D CMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_EXPORT_COMPILE_COMMANDS=ON && \
 		cmake --build . && \
 	cd ../
 	./build/main
